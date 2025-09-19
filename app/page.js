@@ -7,7 +7,7 @@ export default function Home() {
   const {setTheme} = useTheme();
   return (
    <div>
-    hello ji
+    
     <Button>Button</Button>
     <Button onClick={()=>setTheme('dark')}>DarkMode</Button>
     <Button onClick={()=>setTheme('light')}>LightMode</Button>
